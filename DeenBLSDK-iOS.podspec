@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.summary           = 'Sample Spec'
     s.homepage          = 'https://github.com/Deenmaverick/DeenBLSDK-iOS.git'
 
-    s.author            = { 'MD Azizur Rahman' => 'azizur.gakk@gmail.com' }
+    s.author            = { 'Maveric' => 'deenmaverick@gmail.com'}
     s.license      = { :type => "MIT", :file => "LICENSE" }
 
     s.platform          = :ios
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
     s.source            = { :git => "https://github.com/Deenmaverick/DeenBLSDK-iOS.git", :tag => "#{s.version}" }
     s.ios.deployment_target = '12.0'
     s.swift_version = "5.7"
-    s.ios.vendored_frameworks = 'DeenBLSDK-iOS.xcframework' # Your XCFramework
+    s.ios.vendored_frameworks = 'DeenIslamSDK.xcframework' # Your XCFramework
     s.requires_arc = true
 end
