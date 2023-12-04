@@ -8,7 +8,7 @@ DeenIslamBLSDK is available through [CocoaPods](https://github.com/shadhin-music
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'DeenIslamBLSDK’
+pod 'DeenBLSDK-iOS’
 ```
 ## SDK Initilization 
 In Appdelegate SDK initilization process with token and call back delegate 
