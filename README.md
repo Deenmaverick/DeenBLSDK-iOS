@@ -1,10 +1,10 @@
 # DeenIslamBLSDK
-[![Version](https://img.shields.io/cocoapods/v/DeenIslamBLSDK)](https://github.com/shadhin-music/DeenIslamBLSDK)
-[![License](https://img.shields.io/github/license/shadhin-music/DeenIslamBLSDK)](https://github.com/shadhin-music/DeenIslamBLSDK)
+[![Version](https://img.shields.io/cocoapods/v/DeenBLSDK-iOS)](https://github.com/Deenmaverick/DeenBLSDK-iOS)
+[![License](https://img.shields.io/github/license/Deenmaverick/DeenBLSDK-iOS)]([https://github.com/Deenmaverick/DeenBLSDK-iOS](https://github.com/Deenmaverick/DeenBLSDK-iOS))
 
 ## Installation
 
-DeenIslamBLSDK is available through [CocoaPods](https://github.com/shadhin-music/DeenIslamBLSDK). To install
+DeenIslamBLSDK is available through [CocoaPods]([https://github.com/Deenmaverick/DeenBLSDK-iOS). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
