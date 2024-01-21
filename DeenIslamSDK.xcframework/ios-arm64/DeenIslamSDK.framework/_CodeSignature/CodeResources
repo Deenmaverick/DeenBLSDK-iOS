@@ -326,15 +326,15 @@
 		</data>
 		<key>HomeBillBoardCentreCell.nib/objects-12.3+.nib</key>
 		<data>
-		4cOG9J1c/xb/SebPR3eBI18ESPk=
+		2Zxb8YKHMXr9QdZ7WDgUTeE1IbQ=
 		</data>
 		<key>HomeBillBoardCentreCell.nib/objects-13.0+.nib</key>
 		<data>
-		NPw1ycKJDjKPMk3/U+8aY9aoGmM=
+		vuaQy4S91NQAB3zlvOjz2pQiu74=
 		</data>
 		<key>HomeBillBoardCentreCell.nib/runtime.nib</key>
 		<data>
-		9dTQ//TTAdHUnaoGiOZnd5iAEBI=
+		NzLmK/hnSfe1uk4lMH+zlz6T4DE=
 		</data>
 		<key>HomeBillboardCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -482,7 +482,7 @@
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ntSfz2jH/hB9bjzDjQUj3Mqzcs4=
+		P4sTJ9Db9QgxvNX5CUJih0w7WsI=
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -498,7 +498,7 @@
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Gx0j0yXPI0wc4VppiXlveoLBliw=
+		T1QHvKO0nOF/sKl9DiUR0MMcM1k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1557,21 +1557,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vEun+qgpZi9mMFEY9PU84TxZfO3jzVHukWyHMPk+pE8=
+			sn+5H4I34pNfjh+S1LtXdRC/MlIVV5RYfiqDZBM6ves=
 			</data>
 		</dict>
 		<key>HomeBillBoardCentreCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t5d8z78IDkNtJGrccuqDeB/ODwz+wu27K25NwZQ9rwY=
+			mO/oiXSv07TFwPO3SmPkwAIiyS72wFdZOLGzETcgbmo=
 			</data>
 		</dict>
 		<key>HomeBillBoardCentreCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uczx4BGszkrlx+YA0RiA0/fUSW6Ygep9CdM57wNKbEQ=
+			fgrpeAqnH6LNn/vO6zcojjqMFi17ANzIs8nuQEh2IM4=
 			</data>
 		</dict>
 		<key>HomeBillboardCell.nib/objects-12.3+.nib</key>
@@ -1823,7 +1823,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2GP8hfDQ7hN7RUwrLKL8J3Tfsu36HG+Wxk/iCK+CixA=
+			vI82Fn2bAkLCWPXaul3AW4p7Q3aCb/IfMsXa/+nhauQ=
 			</data>
 		</dict>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1851,7 +1851,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ghq+GcG5NTflDQMi1udaDdPKDeeAGxxwxLBGs1hpBPk=
+			vvjnfPCkpU84qEPlubYg2hUz42nTB9YSD6yMbqY2KW4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
