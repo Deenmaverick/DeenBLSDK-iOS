@@ -40963,7 +40963,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 8,
-      "value": "\"v0.0.3\""
+      "value": "\"v0.0.4\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/NamajTime\/PrayerTimeVC\/PrayerTimeDateWiseVM.swift",
@@ -62542,35 +62542,42 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 613,
+      "offset": 758,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 627,
+      "offset": 772,
       "length": 16,
       "value": "\"Token is empty\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 861,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1393,
+      "offset": 1598,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 1839,
+      "offset": 2044,
       "length": 83,
       "value": "\"Please Initialize SDK First. TabBar controller or UINavigationBarController empty\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 2113,
+      "offset": 2318,
       "length": 11,
       "value": "\"Daily Dua\""
     },
