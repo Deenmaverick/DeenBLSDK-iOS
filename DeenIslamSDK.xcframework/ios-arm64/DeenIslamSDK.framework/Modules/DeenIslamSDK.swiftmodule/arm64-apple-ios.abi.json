@@ -40963,7 +40963,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 8,
-      "value": "\"v0.0.4\""
+      "value": "\"v0.0.5\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ViewController\/NamajTime\/PrayerTimeVC\/PrayerTimeDateWiseVM.swift",
@@ -52399,9 +52399,65 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/AuthService.swift",
       "kind": "StringLiteral",
-      "offset": 762,
+      "offset": 400,
+      "length": 47,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/AuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 1,
+      "value": "\"\/api\/User\/VerifyLoginTokenSDK\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/AuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 779,
       "length": 8,
       "value": "\"msisdn\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/AuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2793,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/AuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2826,
+      "length": 9,
+      "value": "\"Message\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/AuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2856,
+      "length": 6,
+      "value": "\"Data\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/AuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2793,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/AuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2826,
+      "length": 9,
+      "value": "\"Message\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/AuthService.swift",
+      "kind": "StringLiteral",
+      "offset": 2856,
+      "length": 6,
+      "value": "\"Data\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Extensions\/UIFont++.swift",
@@ -62556,28 +62612,42 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 861,
+      "offset": 999,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1396,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 1410,
+      "length": 38,
+      "value": "\"Invalid Token, SDK initilise failed.\""
+    },
+    {
+      "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1598,
+      "offset": 2037,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 2044,
+      "offset": 2483,
       "length": 83,
       "value": "\"Please Initialize SDK First. TabBar controller or UINavigationBarController empty\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/Core\/DeenIslamWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 2318,
+      "offset": 2757,
       "length": 11,
       "value": "\"Daily Dua\""
     },
@@ -82856,91 +82926,91 @@
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 562,
+      "offset": 568,
       "length": 29,
       "value": "\"https:\/\/api.deenislamic.com\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 844,
+      "offset": 852,
       "length": 34,
       "value": "\"https:\/\/services.deenislamic.com\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 924,
+      "offset": 932,
       "length": 53,
       "value": "\"https:\/\/islamic-content.sgp1.digitaloceanspaces.com\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1165,
       "length": 8,
       "value": "\"Device\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1182,
       "length": 11,
       "value": "\"blsdk_ios\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1212,
+      "offset": 1220,
       "length": 8,
       "value": "\"client\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1229,
+      "offset": 1237,
       "length": 5,
       "value": "\"2.1\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1261,
+      "offset": 1269,
       "length": 12,
       "value": "\"appVersion\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1331,
+      "offset": 1339,
       "length": 13,
       "value": "\"deviceModel\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1411,
+      "offset": 1419,
       "length": 10,
       "value": "\"deviceID\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1482,
+      "offset": 1490,
       "length": 13,
       "value": "\"iosDeviceID\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1552,
+      "offset": 1560,
       "length": 9,
       "value": "\"myblsdk\""
     },
     {
       "filePath": "\/Users\/macbookpro\/Desktop\/Project\/DeenIslamSDK\/DeenIslamSDK\/ApiService\/ApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1593,
+      "offset": 1601,
       "length": 12,
       "value": "\"h8JD1vNStY\""
     },

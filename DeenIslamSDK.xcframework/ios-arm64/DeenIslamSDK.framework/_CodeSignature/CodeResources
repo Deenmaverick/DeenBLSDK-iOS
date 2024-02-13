@@ -22,7 +22,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		DHqAc06wkTi1nemuyi5DKBhZyrs=
+		DBqSKFEn2FDGmimhLzNpOVjc5Yg=
 		</data>
 		<key>CompassCalibrateVC.nib</key>
 		<data>
@@ -482,7 +482,7 @@
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+U5RjgGLwEOWmGBuTd8FrctsM0A=
+		+Eu0pr3ovyzt4M4AykVG59oyuOo=
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -498,7 +498,7 @@
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Gee+CPx0pgmKL4eoElqNKJNGk6k=
+		GIu0ns5sk0nLVhKxIeSDtRevQmc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1025,7 +1025,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RzEZuAKDg/Y3TQLxBEErHBZ7Hdafj5o1NX+SPDsvjn0=
+			G4EVwSILLoK7AWJzzPSwgGJkMQEgaUHMimbFPytZT3E=
 			</data>
 		</dict>
 		<key>CompassCalibrateVC.nib</key>
@@ -1823,7 +1823,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OG6HhMXMUYhQr5j6YND+0ZSQ9Wa+9dHrJa6GU7MlNR0=
+			11yQVJXr1CQ5gXlysLJ3j/AhGeCkMSc5QUnCYuUiL9Q=
 			</data>
 		</dict>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1851,7 +1851,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kEhgGYwUZw2ccsoQHLKSRnJnMYs3drV1wvcMEhrqJmk=
+			Q8i+PAMDU6Sw8KH3pSUXudbjBnb/FmLwkP1ejdeTqHw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
