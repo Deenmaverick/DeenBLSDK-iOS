@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DeenIslamSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -12,7 +12,6 @@ import CoreImage
 import CoreLocation
 import CoreMedia
 @_exported import DeenIslamSDK
-import DeveloperToolsSupport
 import Dispatch
 import Foundation
 import ImageIO
@@ -21,7 +20,6 @@ import MobileCoreServices
 import ObjectiveC
 import QuartzCore
 import Swift
-import SwiftUI
 import SystemConfiguration
 import UIKit
 import UniformTypeIdentifiers
@@ -29,7 +27,6 @@ import UserNotifications
 import WebKit
 import _Concurrency
 import _StringProcessing
-import _SwiftConcurrencyShims
 @available(iOSApplicationExtension, unavailable)
 extension DeenIslamSDK.IQKeyboardManager {
   @objc final public var movedDistance: CoreFoundation.CGFloat {
@@ -57,7 +54,7 @@ extension DeenIslamSDK.IQKeyboardManager {
   public var currentItem: DeenIslamSDK.AudioItem? {
     get
   }
-  weak public var delegate: (any DeenIslamSDK.AudioPlayerDelegate)?
+  weak public var delegate: DeenIslamSDK.AudioPlayerDelegate?
   public var maximumConnectionLossTime: Foundation.TimeInterval
   public var adjustQualityAutomatically: Swift.Bool
   public var defaultQuality: DeenIslamSDK.AudioQuality
@@ -116,7 +113,7 @@ extension DeenIslamSDK.IQKeyboardManager {
 }
 public enum AudioPlayerError : Swift.Error {
   case maximumRetryCountHit
-  case foundationError(any Swift.Error)
+  case foundationError(Swift.Error)
   case itemNotConsideredPlayable
   case noItemsConsideredPlayable
 }
@@ -166,7 +163,7 @@ public func == (lhs: DeenIslamSDK.AudioPlayerState, rhs: DeenIslamSDK.AudioPlaye
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override weak dynamic open var delegate: (any UIKit.UITextViewDelegate)? {
+  @_Concurrency.MainActor(unsafe) @objc override weak dynamic open var delegate: UIKit.UITextViewDelegate? {
     @objc get
     @objc set
   }
@@ -334,16 +331,16 @@ public enum AFError : Swift.Error {
     case bodyPartURLInvalid(url: Foundation.URL)
     case bodyPartFilenameInvalid(in: Foundation.URL)
     case bodyPartFileNotReachable(at: Foundation.URL)
-    case bodyPartFileNotReachableWithError(atURL: Foundation.URL, error: any Swift.Error)
+    case bodyPartFileNotReachableWithError(atURL: Foundation.URL, error: Swift.Error)
     case bodyPartFileIsDirectory(at: Foundation.URL)
     case bodyPartFileSizeNotAvailable(at: Foundation.URL)
-    case bodyPartFileSizeQueryFailedWithError(forURL: Foundation.URL, error: any Swift.Error)
+    case bodyPartFileSizeQueryFailedWithError(forURL: Foundation.URL, error: Swift.Error)
     case bodyPartInputStreamCreationFailed(for: Foundation.URL)
     case outputStreamCreationFailed(for: Foundation.URL)
     case outputStreamFileAlreadyExists(at: Foundation.URL)
     case outputStreamURLInvalid(url: Foundation.URL)
-    case outputStreamWriteFailed(error: any Swift.Error)
-    case inputStreamReadFailed(error: any Swift.Error)
+    case outputStreamWriteFailed(error: Swift.Error)
+    case inputStreamReadFailed(error: Swift.Error)
   }
   public struct UnexpectedInputStreamLength : Swift.Error {
     public var bytesExpected: Swift.UInt64
@@ -351,8 +348,8 @@ public enum AFError : Swift.Error {
   }
   public enum ParameterEncodingFailureReason {
     case missingURL
-    case jsonEncodingFailed(error: any Swift.Error)
-    case customEncodingFailed(error: any Swift.Error)
+    case jsonEncodingFailed(error: Swift.Error)
+    case customEncodingFailed(error: Swift.Error)
   }
   public enum ParameterEncoderFailureReason {
     public enum RequiredComponent {
@@ -360,7 +357,7 @@ public enum AFError : Swift.Error {
       case httpMethod(rawValue: Swift.String)
     }
     case missingRequiredComponent(DeenIslamSDK.AFError.ParameterEncoderFailureReason.RequiredComponent)
-    case encoderFailed(error: any Swift.Error)
+    case encoderFailed(error: Swift.Error)
   }
   public enum ResponseValidationFailureReason {
     case dataFileNil
@@ -368,16 +365,16 @@ public enum AFError : Swift.Error {
     case missingContentType(acceptableContentTypes: [Swift.String])
     case unacceptableContentType(acceptableContentTypes: [Swift.String], responseContentType: Swift.String)
     case unacceptableStatusCode(code: Swift.Int)
-    case customValidationFailed(error: any Swift.Error)
+    case customValidationFailed(error: Swift.Error)
   }
   public enum ResponseSerializationFailureReason {
     case inputDataNilOrZeroLength
     case inputFileNil
     case inputFileReadFailed(at: Foundation.URL)
     case stringSerializationFailed(encoding: Swift.String.Encoding)
-    case jsonSerializationFailed(error: any Swift.Error)
-    case decodingFailed(error: any Swift.Error)
-    case customSerializationFailed(error: any Swift.Error)
+    case jsonSerializationFailed(error: Swift.Error)
+    case decodingFailed(error: Swift.Error)
+    case customSerializationFailed(error: Swift.Error)
     case invalidEmptyResponse(type: Swift.String)
   }
   public enum ServerTrustFailureReason {
@@ -393,33 +390,33 @@ public enum AFError : Swift.Error {
     case policyApplicationFailed(trust: Security.SecTrust, policy: Security.SecPolicy, status: Darwin.OSStatus)
     case settingAnchorCertificatesFailed(status: Darwin.OSStatus, certificates: [Security.SecCertificate])
     case revocationPolicyCreationFailed
-    case trustEvaluationFailed(error: (any Swift.Error)?)
+    case trustEvaluationFailed(error: Swift.Error?)
     case defaultEvaluationFailed(output: DeenIslamSDK.AFError.ServerTrustFailureReason.Output)
     case hostValidationFailed(output: DeenIslamSDK.AFError.ServerTrustFailureReason.Output)
     case revocationCheckFailed(output: DeenIslamSDK.AFError.ServerTrustFailureReason.Output, options: DeenIslamSDK.RevocationTrustEvaluator.Options)
     case certificatePinningFailed(host: Swift.String, trust: Security.SecTrust, pinnedCertificates: [Security.SecCertificate], serverCertificates: [Security.SecCertificate])
     case publicKeyPinningFailed(host: Swift.String, trust: Security.SecTrust, pinnedKeys: [Security.SecKey], serverKeys: [Security.SecKey])
-    case customEvaluationFailed(error: any Swift.Error)
+    case customEvaluationFailed(error: Swift.Error)
   }
   public enum URLRequestValidationFailureReason {
     case bodyDataInGETRequest(Foundation.Data)
   }
-  case createUploadableFailed(error: any Swift.Error)
-  case createURLRequestFailed(error: any Swift.Error)
-  case downloadedFileMoveFailed(error: any Swift.Error, source: Foundation.URL, destination: Foundation.URL)
+  case createUploadableFailed(error: Swift.Error)
+  case createURLRequestFailed(error: Swift.Error)
+  case downloadedFileMoveFailed(error: Swift.Error, source: Foundation.URL, destination: Foundation.URL)
   case explicitlyCancelled
-  case invalidURL(url: any DeenIslamSDK.URLConvertible)
+  case invalidURL(url: DeenIslamSDK.URLConvertible)
   case multipartEncodingFailed(reason: DeenIslamSDK.AFError.MultipartEncodingFailureReason)
   case parameterEncodingFailed(reason: DeenIslamSDK.AFError.ParameterEncodingFailureReason)
   case parameterEncoderFailed(reason: DeenIslamSDK.AFError.ParameterEncoderFailureReason)
-  case requestAdaptationFailed(error: any Swift.Error)
-  case requestRetryFailed(retryError: any Swift.Error, originalError: any Swift.Error)
+  case requestAdaptationFailed(error: Swift.Error)
+  case requestRetryFailed(retryError: Swift.Error, originalError: Swift.Error)
   case responseValidationFailed(reason: DeenIslamSDK.AFError.ResponseValidationFailureReason)
   case responseSerializationFailed(reason: DeenIslamSDK.AFError.ResponseSerializationFailureReason)
   case serverTrustEvaluationFailed(reason: DeenIslamSDK.AFError.ServerTrustFailureReason)
   case sessionDeinitialized
-  case sessionInvalidated(error: (any Swift.Error)?)
-  case sessionTaskFailed(error: any Swift.Error)
+  case sessionInvalidated(error: Swift.Error?)
+  case sessionTaskFailed(error: Swift.Error)
   case urlRequestValidationFailed(reason: DeenIslamSDK.AFError.URLRequestValidationFailureReason)
 }
 extension Swift.Error {
@@ -482,7 +479,7 @@ extension DeenIslamSDK.AFError {
   public var url: Foundation.URL? {
     get
   }
-  public var underlyingError: (any Swift.Error)? {
+  public var underlyingError: Swift.Error? {
     get
   }
   public var acceptableContentTypes: [Swift.String]? {
@@ -578,7 +575,7 @@ extension DeenIslamSDK.IQKeyboardManager {
 }
 extension DeenIslamSDK.DeenIslamBLSDK {
   @objc final public func logIn(with msisdn: Swift.String, isBL: Swift.Bool, complete: @escaping (Swift.String?, Swift.String?) -> Swift.Void)
-  @objc final public func initialize(with tabBar: UIKit.UITabBarController?, nav: UIKit.UINavigationController, delegate: any DeenIslamSDK.DeenIslamSDKNotifier, token: Swift.String, isBL: Swift.Bool)
+  @objc final public func initialize(with tabBar: UIKit.UITabBarController?, nav: UIKit.UINavigationController, delegate: DeenIslamSDK.DeenIslamSDKNotifier, token: Swift.String, isBL: Swift.Bool)
   @objc final public func gotoHome()
   @objc final public func goto(feature: DeenIslamSDK.AppFeature)
   @objc final public func eventRegister(with event: UIKit.UIEvent)
@@ -925,7 +922,7 @@ public enum DeenError : Swift.Error {
 }
 @_inheritsConvenienceInitializers @available(iOSApplicationExtension, unavailable)
 @objc final public class IQKeyboardReturnKeyHandler : ObjectiveC.NSObject {
-  @objc weak final public var delegate: (any UIKit.UITextFieldDelegate & UIKit.UITextViewDelegate)?
+  @objc weak final public var delegate: (UIKit.UITextFieldDelegate & UIKit.UITextViewDelegate)?
   @objc final public var lastTextFieldReturnKeyType: UIKit.UIReturnKeyType {
     @objc get
     @objc set
@@ -970,9 +967,9 @@ extension DeenIslamSDK.IQKeyboardReturnKeyHandler : UIKit.UITextViewDelegate {
   @available(iOS 16.0, *)
   @_Concurrency.MainActor(unsafe) @objc final public func textView(_ aTextView: UIKit.UITextView, editMenuForTextIn range: Foundation.NSRange, suggestedActions: [UIKit.UIMenuElement]) -> UIKit.UIMenu?
   @available(iOS 16.0, *)
-  @_Concurrency.MainActor(unsafe) @objc final public func textView(_ aTextView: UIKit.UITextView, willPresentEditMenuWith animator: any UIKit.UIEditMenuInteractionAnimating)
+  @_Concurrency.MainActor(unsafe) @objc final public func textView(_ aTextView: UIKit.UITextView, willPresentEditMenuWith animator: UIKit.UIEditMenuInteractionAnimating)
   @available(iOS 16.0, *)
-  @_Concurrency.MainActor(unsafe) @objc final public func textView(_ aTextView: UIKit.UITextView, willDismissEditMenuWith animator: any UIKit.UIEditMenuInteractionAnimating)
+  @_Concurrency.MainActor(unsafe) @objc final public func textView(_ aTextView: UIKit.UITextView, willDismissEditMenuWith animator: UIKit.UIEditMenuInteractionAnimating)
 }
 public protocol URLConvertible {
   func asURL() throws -> Foundation.URL

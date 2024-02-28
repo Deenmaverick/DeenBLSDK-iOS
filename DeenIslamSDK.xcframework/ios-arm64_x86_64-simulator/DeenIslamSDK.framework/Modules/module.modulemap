@@ -1,7 +1,7 @@
 framework module DeenIslamSDK {
   umbrella header "DeenIslamSDK.h"
-  export *
 
+  export *
   module * { export * }
 }
 
