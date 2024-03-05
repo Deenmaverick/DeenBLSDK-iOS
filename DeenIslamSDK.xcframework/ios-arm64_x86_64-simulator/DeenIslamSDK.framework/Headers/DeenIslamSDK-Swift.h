@@ -265,6 +265,7 @@ typedef SWIFT_ENUM(NSInteger, AppFeature, open) {
   AppFeaturePrayerTime = 6,
   AppFeatureQibla = 7,
   AppFeatureZakat = 8,
+  AppFeatureRamadan = 9,
 };
 
 @class NSString;
@@ -1214,6 +1215,7 @@ typedef SWIFT_ENUM(NSInteger, AppFeature, open) {
   AppFeaturePrayerTime = 6,
   AppFeatureQibla = 7,
   AppFeatureZakat = 8,
+  AppFeatureRamadan = 9,
 };
 
 @class NSString;

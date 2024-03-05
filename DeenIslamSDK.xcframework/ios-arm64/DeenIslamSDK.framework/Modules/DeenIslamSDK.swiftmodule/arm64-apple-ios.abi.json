@@ -5184,6 +5184,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreMedia",
         "printedName": "CoreMedia",
         "declKind": "Import",
@@ -5432,8 +5442,28 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DeenIslamSDK",
         "declAttributes": [
@@ -7322,6 +7352,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DeenIslamSDK",
         "declAttributes": [
@@ -15283,6 +15323,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -15339,6 +15389,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DeenIslamSDK",
         "declAttributes": [
@@ -15652,6 +15712,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "DeenIslamSDK",
         "declAttributes": [
@@ -16495,6 +16565,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -17146,6 +17226,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -17178,6 +17268,16 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "DeenIslamSDK",
         "declAttributes": [
@@ -25706,6 +25806,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "IQBarButtonItemConfiguration",
         "printedName": "IQBarButtonItemConfiguration",
@@ -30887,6 +30997,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DeenIslamSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -31268,6 +31388,47 @@
               "ObjC"
             ],
             "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
+            "name": "ramadan",
+            "printedName": "ramadan",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DeenIslamSDK.AppFeature.Type) -> DeenIslamSDK.AppFeature",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppFeature",
+                    "printedName": "DeenIslamSDK.AppFeature",
+                    "usr": "c:@M@DeenIslamSDK@E@AppFeature"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DeenIslamSDK.AppFeature.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppFeature",
+                        "printedName": "DeenIslamSDK.AppFeature",
+                        "usr": "c:@M@DeenIslamSDK@E@AppFeature"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DeenIslamSDK@E@AppFeature@AppFeatureRamadan",
+            "mangledName": "$s12DeenIslamSDK10AppFeatureO7ramadanyA2CmF",
+            "moduleName": "DeenIslamSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 9
           },
           {
             "kind": "Constructor",
@@ -38989,6 +39150,636 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 9,
+      "value": "\"Message\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 11,
+      "value": "\"TotalData\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 438,
+      "length": 6,
+      "value": "\"Data\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 9,
+      "value": "\"Message\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 11,
+      "value": "\"TotalData\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 438,
+      "length": 6,
+      "value": "\"Data\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 825,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 8,
+      "value": "\"Design\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 915,
+      "length": 11,
+      "value": "\"AppDesign\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 6,
+      "value": "\"Logo\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 980,
+      "length": 12,
+      "value": "\"ButtonText\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 10,
+      "value": "\"Sequence\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1055,
+      "length": 13,
+      "value": "\"FeatureSize\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1090,
+      "length": 7,
+      "value": "\"Items\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 825,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 8,
+      "value": "\"Design\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 915,
+      "length": 11,
+      "value": "\"AppDesign\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 6,
+      "value": "\"Logo\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 980,
+      "length": 12,
+      "value": "\"ButtonText\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 10,
+      "value": "\"Sequence\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1055,
+      "length": 13,
+      "value": "\"FeatureSize\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1090,
+      "length": 7,
+      "value": "\"Items\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1871,
+      "length": 18,
+      "value": "\"IslamicBookPatch\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1919,
+      "length": 19,
+      "value": "\"IslamicBoyanPatch\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1962,
+      "length": 13,
+      "value": "\"KhatamQuran\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1992,
+      "length": 6,
+      "value": "\"menu\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1871,
+      "length": 18,
+      "value": "\"IslamicBookPatch\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1919,
+      "length": 19,
+      "value": "\"IslamicBoyanPatch\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1962,
+      "length": 13,
+      "value": "\"KhatamQuran\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1992,
+      "length": 6,
+      "value": "\"menu\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3553,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3583,
+      "length": 11,
+      "value": "\"FeatureID\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3622,
+      "length": 13,
+      "value": "\"FeatureName\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3664,
+      "length": 14,
+      "value": "\"FeatureTitle\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3700,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3728,
+      "length": 6,
+      "value": "\"Text\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3755,
+      "length": 6,
+      "value": "\"Logo\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3788,
+      "length": 12,
+      "value": "\"ArabicText\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3826,
+      "length": 11,
+      "value": "\"Reference\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3935,
+      "length": 16,
+      "value": "\"contentBaseUrl\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4013,
+      "length": 10,
+      "value": "\"Language\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4048,
+      "length": 10,
+      "value": "\"Sequence\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4086,
+      "length": 13,
+      "value": "\"ContentType\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4123,
+      "length": 9,
+      "value": "\"SurahId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4154,
+      "length": 7,
+      "value": "\"JuzId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4185,
+      "length": 9,
+      "value": "\"VerseId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4219,
+      "length": 10,
+      "value": "\"HadithId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4256,
+      "length": 12,
+      "value": "\"CategoryId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4298,
+      "length": 15,
+      "value": "\"SubCategoryId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4335,
+      "length": 7,
+      "value": "\"DuaId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4364,
+      "length": 7,
+      "value": "\"MText\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4395,
+      "length": 9,
+      "value": "\"Meaning\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4427,
+      "length": 8,
+      "value": "\"ECount\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4465,
+      "length": 15,
+      "value": "\"FeatureDesign\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4508,
+      "length": 13,
+      "value": "\"FeatureLogo\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4551,
+      "length": 15,
+      "value": "\"FeatureButton\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4589,
+      "length": 8,
+      "value": "\"Serial\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4654,
+      "length": 13,
+      "value": "\"FeatureSize\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3553,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3583,
+      "length": 11,
+      "value": "\"FeatureID\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3622,
+      "length": 13,
+      "value": "\"FeatureName\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3664,
+      "length": 14,
+      "value": "\"FeatureTitle\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3700,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3728,
+      "length": 6,
+      "value": "\"Text\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3755,
+      "length": 6,
+      "value": "\"Logo\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3788,
+      "length": 12,
+      "value": "\"ArabicText\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3826,
+      "length": 11,
+      "value": "\"Reference\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3935,
+      "length": 16,
+      "value": "\"contentBaseUrl\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4013,
+      "length": 10,
+      "value": "\"Language\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4048,
+      "length": 10,
+      "value": "\"Sequence\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4086,
+      "length": 13,
+      "value": "\"ContentType\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4123,
+      "length": 9,
+      "value": "\"SurahId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4154,
+      "length": 7,
+      "value": "\"JuzId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4185,
+      "length": 9,
+      "value": "\"VerseId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4219,
+      "length": 10,
+      "value": "\"HadithId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4256,
+      "length": 12,
+      "value": "\"CategoryId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4298,
+      "length": 15,
+      "value": "\"SubCategoryId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4335,
+      "length": 7,
+      "value": "\"DuaId\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4364,
+      "length": 7,
+      "value": "\"MText\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4395,
+      "length": 9,
+      "value": "\"Meaning\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4427,
+      "length": 8,
+      "value": "\"ECount\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4465,
+      "length": 15,
+      "value": "\"FeatureDesign\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4508,
+      "length": 13,
+      "value": "\"FeatureLogo\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4551,
+      "length": 15,
+      "value": "\"FeatureButton\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4589,
+      "length": 8,
+      "value": "\"Serial\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiResponse\/RamadanPatchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 4654,
+      "length": 13,
+      "value": "\"FeatureSize\""
+    },
+    {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Library \/Kingfisher\/General\/KingfisherOptionsInfo.swift",
       "kind": "Array",
       "offset": 1632,
@@ -40170,6 +40961,20 @@
       "offset": 2721,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ViewController\/Ramadan\/RamadanAdapter.swift",
+      "kind": "Array",
+      "offset": 304,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ViewController\/Ramadan\/RamadanAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 14,
+      "value": "\"DeenIslamSDK.RamadanAdapter\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Library \/IQKeyboardManagerSwift\/IQToolbar\/IQTitleBarButtonItem.swift",
@@ -44169,6 +44974,13 @@
       "value": "\"Language\""
     },
     {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ViewController\/Ramadan\/RamadanVM.swift",
+      "kind": "StringLiteral",
+      "offset": 197,
+      "length": 9,
+      "value": "\"DeenIslamSDK.RamadanVM\""
+    },
+    {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Library \/Kingfisher\/General\/KFOptionsSetter.swift",
       "kind": "BooleanLiteral",
       "offset": 7281,
@@ -45149,6 +45961,20 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiService\/RamadanService.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 68,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ApiService\/RamadanService.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 1,
+      "value": "\"\/api\/SeheriIftarTime\/GetRamadanPatch\""
+    },
+    {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/ViewController\/SuraDetailsVC\/cell\/BismillahHeader.swift",
       "kind": "IntegerLiteral",
       "offset": 303,
@@ -45697,7 +46523,7 @@
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Library \/Kingfisher\/Networking\/ImageDownloader.swift",
       "kind": "BooleanLiteral",
-      "offset": 5755,
+      "offset": 5759,
       "length": 5,
       "value": "false"
     },
@@ -47972,7 +48798,7 @@
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Library \/Kingfisher\/Networking\/KFSessionDelegate.swift",
       "kind": "Dictionary",
-      "offset": 1935,
+      "offset": 1943,
       "length": 3,
       "value": "[]"
     },
@@ -48987,6 +49813,13 @@
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 7,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
+      "kind": "IntegerLiteral",
       "offset": 155,
       "length": 3,
       "value": "1"
@@ -49042,127 +49875,134 @@
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 7,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 324,
+      "offset": 341,
       "length": 6,
       "value": "\"home\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 346,
+      "offset": 363,
       "length": 5,
       "value": "\"dua\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 370,
+      "offset": 387,
       "length": 8,
       "value": "\"hadith\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 398,
+      "offset": 415,
       "length": 9,
       "value": "\"tasbeeh\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 428,
+      "offset": 445,
       "length": 7,
       "value": "\"quran\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 476,
       "length": 14,
       "value": "\"islamic_name\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 513,
       "length": 13,
       "value": "\"prayer_time\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 529,
+      "offset": 546,
       "length": 9,
       "value": "\"compass\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 556,
+      "offset": 573,
       "length": 7,
       "value": "\"zakat\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 324,
+      "offset": 341,
       "length": 6,
       "value": "\"home\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 346,
+      "offset": 363,
       "length": 5,
       "value": "\"dua\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 370,
+      "offset": 387,
       "length": 8,
       "value": "\"hadith\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 398,
+      "offset": 415,
       "length": 9,
       "value": "\"tasbeeh\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 428,
+      "offset": 445,
       "length": 7,
       "value": "\"quran\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 476,
       "length": 14,
       "value": "\"islamic_name\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 513,
       "length": 13,
       "value": "\"prayer_time\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 529,
+      "offset": 546,
       "length": 9,
       "value": "\"compass\""
     },
     {
       "filePath": "\/Users\/gakk\/Desktop\/DeenIslamBLSDK-iOS\/DeenIslamSDK\/Core\/AppFeature .swift",
       "kind": "StringLiteral",
-      "offset": 556,
+      "offset": 573,
       "length": 7,
       "value": "\"zakat\""
     },

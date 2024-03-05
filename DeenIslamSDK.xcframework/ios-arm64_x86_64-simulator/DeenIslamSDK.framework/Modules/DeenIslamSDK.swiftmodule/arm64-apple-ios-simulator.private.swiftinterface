@@ -993,6 +993,7 @@ extension Foundation.URLComponents : DeenIslamSDK.URLConvertible {
   case prayerTime
   case qibla
   case zakat
+  case ramadan
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
