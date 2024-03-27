@@ -22,7 +22,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		KCyVInQmt0wTqN0E2j/uYPT2b8Y=
+		3flj4awwEvqv92yXd7xQTMEOQXQ=
 		</data>
 		<key>CompassCalibrateVC.nib</key>
 		<data>
@@ -274,55 +274,55 @@
 		</data>
 		<key>Headers/DeenIslamSDK-Swift.h</key>
 		<data>
-		OInFPToBCKoVd7fCiunTh9LLPUU=
+		thSQDY8vUtG/kbPJyHNvRk1Fhh0=
 		</data>
 		<key>Headers/DeenIslamSDK.h</key>
 		<data>
-		ziQwTja0yOIo5y53kfNjt9X8YkY=
+		8/O3cyyNMZO1X2r7CixDE/vcGHI=
 		</data>
-		<key>Headers/DeenLNChevronView.h</key>
+		<key>Headers/LNChevronView.h</key>
 		<data>
-		0uiWy6l6sAgGcZZWudVOlBjttuI=
+		RmjpCR7pSuXG1lPIzpNaf6SttqI=
 		</data>
-		<key>Headers/DeenLNPopupBar+Private.h</key>
+		<key>Headers/LNPopupBar+Private.h</key>
 		<data>
-		oTJHV/oMwPiQFGdT7NiH9SCdxU4=
+		QzUvOSjDAaG6CiqpuTmXUZa+3so=
 		</data>
-		<key>Headers/DeenLNPopupBar.h</key>
+		<key>Headers/LNPopupBar.h</key>
 		<data>
-		QH9CWPMbGpJ0ftbHan+SP4E8PBY=
+		0mJo7gwFQUhXBFlWizLlEIATv6s=
 		</data>
-		<key>Headers/DeenLNPopupCloseButton.h</key>
+		<key>Headers/LNPopupCloseButton.h</key>
 		<data>
-		rqYbfh9HuRsRM/f5tYDMMkJ9NgQ=
+		A+E1k5Uwjc0rOGpM4OuszMGQm2g=
 		</data>
-		<key>Headers/DeenLNPopupContentView.h</key>
+		<key>Headers/LNPopupContentView.h</key>
 		<data>
-		cXktt4issJhkyev6I76tVRh3iJk=
+		xR9HlhSz5l6j7/SxIzK68R8rywc=
 		</data>
-		<key>Headers/DeenLNPopupController.h</key>
+		<key>Headers/LNPopupController.h</key>
 		<data>
-		FIQ+uu9hp4vj1qf0cP94UpUiNX0=
+		Dis08mUoDCGmCeYMZ7SkRsLxgvk=
 		</data>
-		<key>Headers/DeenLNPopupCustomBarViewController+Private.h</key>
+		<key>Headers/LNPopupCustomBarViewController+Private.h</key>
 		<data>
-		rRircKwHfbWti5flBe1P9Ac9y4w=
+		eEwWUnHRaY+VHDrin4UggHRANfM=
 		</data>
-		<key>Headers/DeenLNPopupCustomBarViewController.h</key>
+		<key>Headers/LNPopupCustomBarViewController.h</key>
 		<data>
-		yN339raWnnBApg3usERDWONTYAg=
+		NwjRh9iXRWJ6EBc8w9C8qWJxqiI=
 		</data>
-		<key>Headers/DeenLNPopupItem.h</key>
+		<key>Headers/LNPopupItem.h</key>
 		<data>
-		qG8cVf5IVoIEtdLhu8HSYy5XQmg=
+		J6sw3W7OK+62PBWY8gNcyFY4t04=
 		</data>
-		<key>Headers/DeenUIViewController+LNPopupSupport.h</key>
+		<key>Headers/UIViewController+LNPopupSupport.h</key>
 		<data>
-		HP0qvxVMFD+FkceFUyw2k8uJbiE=
+		wzlr+vTGQ9Td8Q54X89HT7UtUzw=
 		</data>
-		<key>Headers/DeenUIViewController+LNPopupSupportPrivate.h</key>
+		<key>Headers/UIViewController+LNPopupSupportPrivate.h</key>
 		<data>
-		eDwx+XxZCxDazIp/o2oAmkxYE90=
+		Q85esH8YSmDpnzhWv67TfQulEuQ=
 		</data>
 		<key>HomeBillBoardCentreCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -482,11 +482,11 @@
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		T7ITPqmVKCijUcUflzjvOjpQF/g=
+		OTCAhMzKgvi+x4bcHolfiKNHOfM=
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		AQUGOSmbuzDEcgk7zJDkjJamO6g=
+		mZTApgBwUd1WlXKNrkvHngpHxZs=
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -494,19 +494,19 @@
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		AQUGOSmbuzDEcgk7zJDkjJamO6g=
+		mZTApgBwUd1WlXKNrkvHngpHxZs=
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7zyvn0W/mmoOtSueB4HKsLxQsqE=
+		0ds3IorkD2fW6lnKnflqv/e62n8=
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		T7ITPqmVKCijUcUflzjvOjpQF/g=
+		OTCAhMzKgvi+x4bcHolfiKNHOfM=
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gcFE7ElDUDeifxmOjNlRZp+R8Hs=
+		KR4NunQUcu1TOnfjTwZV407BWek=
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -514,11 +514,11 @@
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gcFE7ElDUDeifxmOjNlRZp+R8Hs=
+		KR4NunQUcu1TOnfjTwZV407BWek=
 		</data>
 		<key>Modules/DeenIslamSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		h+5YqniQ8Xyat0GJngpYfM6VnUg=
+		Kdm2sRHilHPWacwMUJdTIHE+os8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -743,38 +743,6 @@
 		<key>QuranTranslatorPlyaerView.nib/runtime.nib</key>
 		<data>
 		OJdALyMgPGKuX0a6JVpf8Wewnfc=
-		</data>
-		<key>RamadanBookCell.nib</key>
-		<data>
-		iRjG3xzvw0Wf/nmVhDTlQmKamyE=
-		</data>
-		<key>RamadanDivisionCell.nib</key>
-		<data>
-		I+eGffcaIEUqnn1z2vUN86+5PTY=
-		</data>
-		<key>RamadanIftarSehriTimeCell.nib</key>
-		<data>
-		o96ZINGKlRju9vjF/vSH4ElwrAM=
-		</data>
-		<key>RamadanInfoCell.nib</key>
-		<data>
-		/glis7LPVDZM51+SVkh4MRwyYn0=
-		</data>
-		<key>RamadanMenuCell.nib</key>
-		<data>
-		KiPLUG04eZS71pI+2txOxRVhEyo=
-		</data>
-		<key>RamadanSpeechCell.nib</key>
-		<data>
-		Pne0Wr+kT+/Ap7JAdtcl3/0KP9M=
-		</data>
-		<key>RamadanVC.nib</key>
-		<data>
-		BxMNyxY4Rpw2J86pqMeRMOpaG3o=
-		</data>
-		<key>RamadanVcCell.nib</key>
-		<data>
-		5zT5Y4nMS/rQSH752H7Y4MtjAgg=
 		</data>
 		<key>SettingVC.nib</key>
 		<data>
@@ -1077,7 +1045,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CwxFzYPZA4Yxjr0muQQ1DQ5qZBBnnY24WgRa8ZWBbQI=
+			d+nWOOKcdNHlg6qYogCu+DrnAcTGOC5U26Gcm+sxhlA=
 			</data>
 		</dict>
 		<key>CompassCalibrateVC.nib</key>
@@ -1518,91 +1486,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			USYVtbafpandkXnlh4TzH9kE8eBlUY1vlpoSlMaaic4=
+			pqywkFFVWicoUNO99r34fevRn5kw64IAOtFxjxEoYT8=
 			</data>
 		</dict>
 		<key>Headers/DeenIslamSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DFrq21i9NKHPFVO96rYNT883BpqR1Zmq4dOI/jNdmx8=
+			us3XfpbO5wc9WR/biWj4+e7GnmITrCTqLzw8hIRGqts=
 			</data>
 		</dict>
-		<key>Headers/DeenLNChevronView.h</key>
+		<key>Headers/LNChevronView.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rvC2Jm50fzKmIQUBcBCe9TwgFGOz/phfsixxNXtDyOA=
+			BgJ6jrjEG3Ndaz7dx2tm9+a+dK21caknoNhmf04/KSU=
 			</data>
 		</dict>
-		<key>Headers/DeenLNPopupBar+Private.h</key>
+		<key>Headers/LNPopupBar+Private.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eth2qEOAJNw3mRIoqY/cAkVu8JF3+sMHzVg16x9JlQc=
+			7X9dNjqR0XLaGoAbJ5WvgcnqXcnFwCEGiW6Oy083tfQ=
 			</data>
 		</dict>
-		<key>Headers/DeenLNPopupBar.h</key>
+		<key>Headers/LNPopupBar.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w3mk7cEsus25JGjDfHpslQ7Lt+fMJAu4om2IgJ6BhZo=
+			ZyYS5VmBs4fsyDSP1lPrlk5sMk362OkPbqsogOPntCQ=
 			</data>
 		</dict>
-		<key>Headers/DeenLNPopupCloseButton.h</key>
+		<key>Headers/LNPopupCloseButton.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WBpD/OyQKSVNLArwaXYF5u5Kz6jUGhb4+R3AH1tBJqA=
+			tRwiaG7d8wSDi/IdtzWQpoYWDhVzFepk9EeTjxteD6E=
 			</data>
 		</dict>
-		<key>Headers/DeenLNPopupContentView.h</key>
+		<key>Headers/LNPopupContentView.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T2t40Qrg9q35TuxoFwHF1OYxS41p8tNi0MCDOEpV/Tk=
+			/N6360tCKEd5IzPKRn9OR60HlWkceGFjJLzX5nMX/DA=
 			</data>
 		</dict>
-		<key>Headers/DeenLNPopupController.h</key>
+		<key>Headers/LNPopupController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x/tNT5hDNnx+3ffXn6D6UAhEi5IdsoxQTAnPwwldjVw=
+			Rp4r0JhNLD1GYd6QKV0zhACcNsugL5plK65SGPRMb2U=
 			</data>
 		</dict>
-		<key>Headers/DeenLNPopupCustomBarViewController+Private.h</key>
+		<key>Headers/LNPopupCustomBarViewController+Private.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hC6gKNwp0xeX83hiifY0ixH+7SUPhvvYqylrqItFK5s=
+			2X9gHaMZK7nBU2J4V/N/RI3ArTfU1YfA2W/5lc7GA2E=
 			</data>
 		</dict>
-		<key>Headers/DeenLNPopupCustomBarViewController.h</key>
+		<key>Headers/LNPopupCustomBarViewController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+jBl7amratEbxzaJRMQBagREBRRIAKO1XNh4AElflQI=
+			PLFPtQsGXAqy3sXOfnExcU6n6HWEvr197/J0UBRW41E=
 			</data>
 		</dict>
-		<key>Headers/DeenLNPopupItem.h</key>
+		<key>Headers/LNPopupItem.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DCIsRBNa+zW23s0/byBr6GWXuJ2jVxl3k4usT4T1dAQ=
+			trFw+FtE+XnDvmYnRTeZjme4be8WJDM4+4HixvLCii4=
 			</data>
 		</dict>
-		<key>Headers/DeenUIViewController+LNPopupSupport.h</key>
+		<key>Headers/UIViewController+LNPopupSupport.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EhQCxpX1xfp94AMa9QmytHVi1aokqb23DVgnGiLUUU8=
+			t7Jjeivzi4/WlCIOMANry1dSRdH2OWIbi9UDnKqt/f4=
 			</data>
 		</dict>
-		<key>Headers/DeenUIViewController+LNPopupSupportPrivate.h</key>
+		<key>Headers/UIViewController+LNPopupSupportPrivate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RGmuOAOXv0k/wsBeHt8+3kwShvHdGjxcBm4xPR72W8I=
+			2wFRmJlSLswFfDSEPX6B/dvW7jPbvXQM7t2uk1el+xc=
 			</data>
 		</dict>
 		<key>HomeBillBoardCentreCell.nib/objects-12.3+.nib</key>
@@ -1875,14 +1843,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hQPWYhTbzCMiMZ2ydW2vq+bE+yTak4Fxj5rjDW/jfy0=
+			KNccQay0iWn6Xmc+NbGKlQEAF9LO3leV44pFuci318k=
 			</data>
 		</dict>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pxq+05jm2QL9/IfoCDH9ggWVprc9xebHovuZmgEvx8E=
+			Qwk6MSX8ygFJl/daPRhY2bUsifhlKiEy8/uG7eIljdI=
 			</data>
 		</dict>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -1896,28 +1864,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pxq+05jm2QL9/IfoCDH9ggWVprc9xebHovuZmgEvx8E=
+			Qwk6MSX8ygFJl/daPRhY2bUsifhlKiEy8/uG7eIljdI=
 			</data>
 		</dict>
 		<key>Modules/DeenIslamSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8lBdSlYclEZajZAlOX+tHv4/NNU8otSknu5tAKefBgo=
+			KiQritK0UkAKwxMu+dQIWfzYmG/awANFienSljkFBS0=
 			</data>
 		</dict>
 		<key>Modules/DeenIslamSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hQPWYhTbzCMiMZ2ydW2vq+bE+yTak4Fxj5rjDW/jfy0=
+			KNccQay0iWn6Xmc+NbGKlQEAF9LO3leV44pFuci318k=
 			</data>
 		</dict>
 		<key>Modules/DeenIslamSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S5/3hKcW7bxF+8yO213LjhChxO6LcGT87KYGgbRYzNM=
+			kIukUQ3W7dUGC8HlSNlZLXJahE+CS+cjAeSNTP0R7D8=
 			</data>
 		</dict>
 		<key>Modules/DeenIslamSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1931,14 +1899,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S5/3hKcW7bxF+8yO213LjhChxO6LcGT87KYGgbRYzNM=
+			kIukUQ3W7dUGC8HlSNlZLXJahE+CS+cjAeSNTP0R7D8=
 			</data>
 		</dict>
 		<key>Modules/DeenIslamSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DoIrul2gX0C7Uak6GqN7RO+TpQIjLQOn342xBWLgSwM=
+			8Al+vLNj7ODUMa5AnKWGT/K7hdQ6swLHU8rtK2PSNKg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2331,62 +2299,6 @@
 			<key>hash2</key>
 			<data>
 			BZH4mIj2/oDMQEpoTyaM0JWxSJdcvHlcThvLvVC90uQ=
-			</data>
-		</dict>
-		<key>RamadanBookCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			O2N1tIpDF4Ek9aEeFh409Z7CVriJwctb1xbyMdQHGXw=
-			</data>
-		</dict>
-		<key>RamadanDivisionCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			li1swIEpAB4OEbNBtKyFK1nqLdnwRSoz9to70apqPI4=
-			</data>
-		</dict>
-		<key>RamadanIftarSehriTimeCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pnULzNP3YYfKmPHERfG5N2x2lFBUwV4nPvkuWJK5Q20=
-			</data>
-		</dict>
-		<key>RamadanInfoCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mwXoxhnRd2zEJQ0G20L91+9A9t9CwVAcanoKJIHqu3E=
-			</data>
-		</dict>
-		<key>RamadanMenuCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QsAGmajvmN+XXMEQuu/zZ6VhttNQsw6W5Sv0Rrj4tOo=
-			</data>
-		</dict>
-		<key>RamadanSpeechCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+Sd7gmc81TjJI0v9jKTIFRqe4lwunV+5+JPE0R6qQ88=
-			</data>
-		</dict>
-		<key>RamadanVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			a+OqFkzK2D/5fQJUQzJiHB73Vyc9FhIltJlDK35CGWw=
-			</data>
-		</dict>
-		<key>RamadanVcCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			U051kflTlpc6599qkuK+zvdrlBuyDAqACFbu/ppetd8=
 			</data>
 		</dict>
 		<key>SettingVC.nib</key>

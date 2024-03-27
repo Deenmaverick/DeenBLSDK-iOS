@@ -10,9 +10,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger, LNChevronViewState) {
-	LNChevronViewStateUp = -1,
-	LNChevronViewStateFlat = 0,
-	LNChevronViewStateDown = 1
+    LNChevronViewStateUp = -1,
+    LNChevronViewStateFlat = 0,
+    LNChevronViewStateDown = 1
 };
 
 @interface LNChevronView : UIView

@@ -17,45 +17,45 @@ NS_ASSUME_NONNULL_BEGIN
  * Available interaction styles with the popup bar and popup content view.
  */
 typedef NS_ENUM(NSUInteger, LNPopupInteractionStyle) {
-	/**
-	 * Use the most appropriate interaction style for the current operating system version—uses snap style for iOS 10 and above, otherwise drag.
-	 */
-	LNPopupInteractionStyleDefault,
-	
-	/**
-	 * Drag interaction style
-	 */
-	LNPopupInteractionStyleDrag,
-	/**
-	 * Snap interaction style
-	 */
-	LNPopupInteractionStyleSnap,
-	/**
-	 * No interaction
-	 */
-	LNPopupInteractionStyleNone = 0xFFFF
+    /**
+     * Use the most appropriate interaction style for the current operating system version—uses snap style for iOS 10 and above, otherwise drag.
+     */
+    LNPopupInteractionStyleDefault,
+    
+    /**
+     * Drag interaction style
+     */
+    LNPopupInteractionStyleDrag,
+    /**
+     * Snap interaction style
+     */
+    LNPopupInteractionStyleSnap,
+    /**
+     * No interaction
+     */
+    LNPopupInteractionStyleNone = 0xFFFF
 };
 
 /**
  * The state of the popup presentation.
  */
 typedef NS_ENUM(NSUInteger, LNPopupPresentationState){
-	/**
-	 * The popup bar is hidden and no presentation is taking place.
-	 */
-	LNPopupPresentationStateHidden,
-	/**
-	 * The popup bar is presented and is closed and no presentation is taking place.
-	 */
-	LNPopupPresentationStateClosed,
-	/**
-	 * The popup is in the middle of transitioning between states.
-	 */
-	LNPopupPresentationStateTransitioning,
-	/**
-	 * The popup is  and the content controller's view is displayed.
-	 */
-	LNPopupPresentationStateOpen,
+    /**
+     * The popup bar is hidden and no presentation is taking place.
+     */
+    LNPopupPresentationStateHidden,
+    /**
+     * The popup bar is presented and is closed and no presentation is taking place.
+     */
+    LNPopupPresentationStateClosed,
+    /**
+     * The popup is in the middle of transitioning between states.
+     */
+    LNPopupPresentationStateTransitioning,
+    /**
+     * The popup is  and the content controller's view is displayed.
+     */
+    LNPopupPresentationStateOpen,
 };
 
 /**
@@ -70,16 +70,16 @@ typedef NS_ENUM(NSUInteger, LNPopupPresentationState){
  *
  * The default behavior is to create a popup item that displays the view controller's title.
  */
-@property (nonatomic, retain, readonly) LNPopupItem* popupItem;
+@property (nonatomic, retain, readonly) LNPopupItem* dn_popupItem;
 
 /**
  * Return the view to which the popup interaction gesture recognizer should be added to.
  *
- * The default implementation returns the controller's view. @see @c UIViewController.popupContentView
+ * The default implementation returns the controller's view. @see @c UIViewController.dn_popupContentView
  *
  * @return The view to which the popup interaction gesture recognizer should be added to.
  */
-@property (nonatomic, strong, readonly) __kindof UIView* viewForPopupInteractionGestureRecognizer;
+@property (nonatomic, strong, readonly) __kindof UIView* dn_viewForPopupInteractionGestureRecognizer;
 
 @end
 
@@ -96,7 +96,7 @@ typedef NS_ENUM(NSUInteger, LNPopupPresentationState){
  * @param animated        Pass @c YES to animate the presentation; otherwise, pass @c NO.
  * @param completion      The block to execute after the presentation finishes. This block has no return value and takes no parameters. You may specify @c nil for this parameter.
  */
-- (void)presentPopupBarWithContentViewController:(UIViewController*)controller animated:(BOOL)animated completion:(nullable void(^)(void))completion;
+- (void)dn_presentPopupBarWithContentViewController:(UIViewController*)controller animated:(BOOL)animated completion:(nullable void(^)(void))completion;
 
 /**
  * Presents an interactive popup bar in the receiver's view hierarchy and optionally opens the popup in the same animation. The popup bar is attached to the receiver's docking view. @see @c -[UIViewController bottomDockingViewForPopupBar]
@@ -106,11 +106,11 @@ typedef NS_ENUM(NSUInteger, LNPopupPresentationState){
  * The provided controller is retained by the system and will be released once a different controller is presented or when the popup bar is dismissed.
  *
  * @param controller      The controller for popup presentation.
- * @param openPopup	   	  Pass @c YES to open the popup in the same animation; otherwise, pass @c NO.
+ * @param openPopup             Pass @c YES to open the popup in the same animation; otherwise, pass @c NO.
  * @param animated        Pass @c YES to animate the presentation; otherwise, pass @c NO.
  * @param completion      The block to execute after the presentation finishes. This block has no return value and takes no parameters. You may specify @c nil for this parameter.
  */
-- (void)presentPopupBarWithContentViewController:(UIViewController*)controller openPopup:(BOOL)openPopup animated:(BOOL)animated completion:(nullable void(^)(void))completion;
+- (void)dn_presentPopupBarWithContentViewController:(UIViewController*)controller openPopup:(BOOL)openPopup animated:(BOOL)animated completion:(nullable void(^)(void))completion;
 
 /**
  * Opens the popup, displaying the content view controller's view.
@@ -118,7 +118,7 @@ typedef NS_ENUM(NSUInteger, LNPopupPresentationState){
  * @param animated        Pass @c YES to animate; otherwise, pass @c NO.
  * @param completion      The block to execute after the popup is opened. This block has no return value and takes no parameters. You may specify @c nil for this parameter.
  */
-- (void)openPopupAnimated:(BOOL)animated completion:(nullable void(^)(void))completion;
+- (void)dn_openPopupAnimated:(BOOL)animated completion:(nullable void(^)(void))completion;
 
 /**
  * Closes the popup, hiding the content view controller's view.
@@ -126,7 +126,7 @@ typedef NS_ENUM(NSUInteger, LNPopupPresentationState){
  * @param animated        Pass @c YES to animate; otherwise, pass @c NO.
  * @param completion      The block to execute after the popup is closed. This block has no return value and takes no parameters. You may specify @c nil for this parameter.
  */
-- (void)closePopupAnimated:(BOOL)animated completion:(nullable void(^)(void))completion;
+- (void)dn_closePopupAnimated:(BOOL)animated completion:(nullable void(^)(void))completion;
 
 /**
  * Dismisses the popup presentation, closing the popup if open and dismissing the popup bar.
@@ -134,43 +134,43 @@ typedef NS_ENUM(NSUInteger, LNPopupPresentationState){
  * @param animated        Pass @c YES to animate; otherwise, pass @c NO.
  * @param completion      The block to execute after the dismissal. This block has no return value and takes no parameters. You may specify @c nil for this parameter.
  */
-- (void)dismissPopupBarAnimated:(BOOL)animated completion:(nullable void(^)(void))completion;
+- (void)dn_dismissPopupBarAnimated:(BOOL)animated completion:(nullable void(^)(void))completion;
 
 /**
  * The popup bar interaction style.
  */
-@property (nonatomic, assign) LNPopupInteractionStyle popupInteractionStyle;
+@property (nonatomic, assign) LNPopupInteractionStyle dn_popupInteractionStyle;
 
 /**
  * The popup bar managed by the system. (read-only)
  */
-@property (nonatomic, strong, readonly) LNPopupBar* popupBar;
+@property (nonatomic, strong, readonly) LNPopupBar* dn_popupBar;
 
 /**
  * Call this method to update the popup bar appearance (style, tint color, etc.) according to its docking view. You should call this after updating the docking view.
  * If the popup bar's @c inheritsVisualStyleFromDockingView property is set to @c NO, this method has no effect. @see @c LNPopupBar.inheritsVisualStyleFromDockingView
  */
-- (void)updatePopupBarAppearance;
+- (void)dn_updatePopupBarAppearance;
 
 /**
  * The popup content container view. (read-only)
  */
-@property (nonatomic, strong, readonly) LNPopupContentView* popupContentView;
+@property (nonatomic, strong, readonly) LNPopupContentView* dn_popupContentView;
 
 /**
  * The state of the popup presentation. (read-only)
  */
-@property (nonatomic, readonly) LNPopupPresentationState popupPresentationState;
+@property (nonatomic, readonly) LNPopupPresentationState dn_popupPresentationState;
 
 /**
  * The content view controller of the receiver. If there is no popover presentation, the property will be @c nil. (read-only)
  */
-@property (nullable, nonatomic, strong, readonly) __kindof UIViewController* popupContentViewController;
+@property (nullable, nonatomic, strong, readonly) __kindof UIViewController* dn_popupContentViewController;
 
 /**
  * The popup presentation container view controller of the receiver. If the receiver is not part of a popover presentation, the property will be @c nil. (read-only)
  */
-@property (nullable, nonatomic, weak, readonly) __kindof UIViewController* popupPresentationContainerViewController;
+@property (nullable, nonatomic, weak, readonly) __kindof UIViewController* dn_popupPresentationContainerViewController;
 
 @end
 
@@ -185,14 +185,14 @@ typedef NS_ENUM(NSUInteger, LNPopupPresentationState){
  * A default implementation is provided for @c UIViewController, @c UINavigationController and @c UITabBarController.
  * The default implmentation for @c UIViewController returns an invisible @c UIView instance, docked to the bottom. For @c UINavigationController, the toolbar is returned. For @c UITabBarController, the tab bar is returned.
  */
-@property (nullable, nonatomic, strong, readonly) __kindof UIView* bottomDockingViewForPopupBar;
+@property (nullable, nonatomic, strong, readonly) __kindof UIView* dn_bottomDockingViewForPopupBar;
 
 /**
  * Return the default frame for the docking view, when the popup is in hidden or closed state. If @c bottomDockingViewForPopupBar returns nil, this method is not called, and the default system-provided frame is used.
  *
  * A default implementation is provided for @c UIViewController, @c UINavigationController and @c UITabBarController.
  */
-@property (nonatomic, readonly) CGRect defaultFrameForBottomDockingView;
+@property (nonatomic, readonly) CGRect dn_defaultFrameForBottomDockingView;
 
 /**
  * The insets for the bottom docking view from bottom of the container controller's view. By default, this is set to the container controller view's safe area insets in iOS 11 or @c UIEdgeInsetsZero otherwise. Currently, only the bottom inset is respected.
@@ -201,7 +201,7 @@ typedef NS_ENUM(NSUInteger, LNPopupPresentationState){
  *
  * @warning This API is experimental and will probably change in the future. Use with care.
  */
-@property (nonatomic, readonly) UIEdgeInsets insetsForBottomDockingView;
+@property (nonatomic, readonly) UIEdgeInsets dn_insetsForBottomDockingView;
 
 @end
 
@@ -210,7 +210,7 @@ typedef NS_ENUM(NSUInteger, LNPopupPresentationState){
 /**
  * @warning This API is deprecated. Use @c bottomDockingViewForPopupBar instead.
  */
-@property (nullable, nonatomic, strong, readonly) __kindof UIView* bottomDockingViewForPopup NS_UNAVAILABLE;
+@property (nullable, nonatomic, strong, readonly) __kindof UIView* dn_bottomDockingViewForPopup NS_UNAVAILABLE;
 
 @end
 

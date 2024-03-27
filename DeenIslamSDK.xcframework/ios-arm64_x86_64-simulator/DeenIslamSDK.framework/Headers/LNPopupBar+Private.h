@@ -13,25 +13,25 @@ extern const CGFloat LNPopupBarHeightProminent;
 
 inline __attribute__((always_inline)) CGFloat _LNPopupBarHeightForBarStyle(LNPopupBarStyle style, LNPopupCustomBarViewController* customBarVC)
 {
-	if(customBarVC) { return customBarVC.preferredContentSize.height; }
-	
-	return style == LNPopupBarStyleCompact ? LNPopupBarHeightCompact : LNPopupBarHeightProminent;
+    if(customBarVC) { return customBarVC.preferredContentSize.height; }
+    
+    return style == LNPopupBarStyleCompact ? LNPopupBarHeightCompact : LNPopupBarHeightProminent;
 }
 
 inline __attribute__((always_inline)) LNPopupBarStyle _LNPopupResolveBarStyleFromBarStyle(LNPopupBarStyle style)
 {
-	LNPopupBarStyle rv = style;
-	if(rv == LNPopupBarStyleDefault)
-	{
-		rv = [[NSProcessInfo processInfo] operatingSystemVersion].majorVersion > 9 ? LNPopupBarStyleProminent : LNPopupBarStyleCompact;
-	}
-	return rv;
+    LNPopupBarStyle rv = style;
+    if(rv == LNPopupBarStyleDefault)
+    {
+        rv = [[NSProcessInfo processInfo] operatingSystemVersion].majorVersion > 9 ? LNPopupBarStyleProminent : LNPopupBarStyleCompact;
+    }
+    return rv;
 }
 
 @protocol _LNPopupBarDelegate <NSObject>
 
 - (void)_traitCollectionForPopupBarDidChange:(LNPopupBar*)bar;
-- (void)_popupBarStyleDidChange:(LNPopupBar*)bar;
+- (void)_dn_popupBarStyleDidChange:(LNPopupBar*)bar;
 
 @end
 
@@ -53,7 +53,7 @@ inline __attribute__((always_inline)) LNPopupBarStyle _LNPopupResolveBarStyleFro
 
 @property (nonatomic, strong) UIView* bottomShadowView;
 
-@property (nonatomic, weak, readwrite) LNPopupItem* popupItem;
+@property (nonatomic, weak, readwrite) LNPopupItem* dn_popupItem;
 
 @property (nonatomic, weak) id<_LNPopupBarDelegate> _barDelegate;
 
@@ -65,7 +65,7 @@ inline __attribute__((always_inline)) LNPopupBarStyle _LNPopupResolveBarStyleFro
 @property (nonatomic, strong) UIView* highlightView;
 - (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated;
 
-@property (nonatomic, strong, readwrite) UIProgressView* progressView;
+@property (nonatomic, strong, readwrite) UIProgressView* dn_progressView;
 
 @property (nonatomic, strong) UIView* contentView;
 //@property (nonatomic, strong) UIToolbar* toolbar;

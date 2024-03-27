@@ -16,50 +16,50 @@
 
 - (instancetype)initWithFrame:(CGRect)frame;
 
-@property (nonatomic, strong, readwrite) UIPanGestureRecognizer* popupInteractionGestureRecognizer;
-@property (nonatomic, strong, readwrite) LNPopupCloseButton* popupCloseButton;
-@property (nonatomic, strong) UIVisualEffectView* effectView;
+@property (nonatomic, strong, readwrite) UIPanGestureRecognizer* dn_popupInteractionGestureRecognizer;
+@property (nonatomic, strong, readwrite) LNPopupCloseButton* dn_popupCloseButton;
+@property (nonatomic, strong) UIVisualEffectView* dn_effectView;
 
-@property (nonatomic, weak) UIViewController* currentPopupContentViewController;
+@property (nonatomic, weak) UIViewController* dn_currentPopupContentViewController;
 
 @end
 
 @interface LNPopupController : NSObject
 
-- (instancetype)initWithContainerViewController:(__kindof UIViewController*)containerController;
+- (instancetype)initDnWithContainerViewController:(__kindof UIViewController*)containerController;
 
-@property (nonatomic, weak) UIView* bottomBar;
+@property (nonatomic, weak) UIView* dn_bottomBar;
 
-@property (nonatomic, strong) LNPopupBar* popupBar;
-@property (nonatomic, strong, readonly) LNPopupBar* popupBarStorage;
-@property (nonatomic, strong) LNPopupContentView* popupContentView;
-@property (nonatomic, strong) UIScrollView* popupContentContainerView;
+@property (nonatomic, strong) LNPopupBar* dn_popupBar;
+@property (nonatomic, strong, readonly) LNPopupBar* dn_popupBarStorage;
+@property (nonatomic, strong) LNPopupContentView* dn_popupContentView;
+@property (nonatomic, strong) UIScrollView* dn_popupContentContainerView;
 
-@property (nonatomic) LNPopupPresentationState popupControllerState;
-@property (nonatomic) LNPopupPresentationState popupControllerTargetState;
+@property (nonatomic) LNPopupPresentationState dn_popupControllerState;
+@property (nonatomic) LNPopupPresentationState dn_popupControllerTargetState;
 
-@property (nonatomic, weak) __kindof UIViewController* containerController;
+@property (nonatomic, weak) __kindof UIViewController* dn_containerController;
 
-@property (nonatomic) CGPoint lastPopupBarLocation;
-@property (nonatomic) CFTimeInterval lastSeenMovement;
+@property (nonatomic) CGPoint dn_lastPopupBarLocation;
+@property (nonatomic) CFTimeInterval dn_lastSeenMovement;
 
-@property (nonatomic, weak) UIViewController* effectiveStatusBarUpdateController;
+@property (nonatomic, weak) UIViewController* dn_effectiveStatusBarUpdateController;
 
-- (CGFloat)_percentFromPopupBar;
+- (CGFloat)dn__percentFromPopupBar;
 
-- (void)_setContentToState:(LNPopupPresentationState)state;
+- (void)_dn_setContentToState:(LNPopupPresentationState)state;
 
-- (void)_movePopupBarAndContentToBottomBarSuperview;
+- (void)_dn_movePopupBarAndContentToBottomBarSuperview;
 
-- (void)_repositionPopupCloseButton;
+- (void)_dn_repositionPopupCloseButton;
 
-- (void)presentPopupBarAnimated:(BOOL)animated openPopup:(BOOL)open completion:(void(^)(void))completionBlock;
-- (void)openPopupAnimated:(BOOL)animated completion:(void(^)(void))completionBlock;
-- (void)closePopupAnimated:(BOOL)animated completion:(void(^)(void))completionBlock;
-- (void)dismissPopupBarAnimated:(BOOL)animated completion:(void(^)(void))completionBlock;
+- (void)dn_presentPopupBarAnimated:(BOOL)animated openPopup:(BOOL)open completion:(void(^)(void))completionBlock;
+- (void)dn_openPopupAnimated:(BOOL)animated completion:(void(^)(void))completionBlock;
+- (void)dn_closePopupAnimated:(BOOL)animated completion:(void(^)(void))completionBlock;
+- (void)dn_dismissPopupBarAnimated:(BOOL)animated completion:(void(^)(void))completionBlock;
 
-- (void)_configurePopupBarFromBottomBar;
+- (void)_dn_configurePopupBarFromBottomBar;
 
-+ (CGFloat)_statusBarHeightForView:(UIView*)view;
++ (CGFloat)_dn_statusBarHeightForView:(UIView*)view;
 
 @end

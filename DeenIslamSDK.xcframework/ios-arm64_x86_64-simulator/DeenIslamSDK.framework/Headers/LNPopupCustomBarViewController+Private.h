@@ -12,6 +12,6 @@
 
 @interface LNPopupCustomBarViewController ()
 
-@property (nonatomic, weak, readwrite) LNPopupBar* containingPopupBar;
+@property (nonatomic, weak, readwrite) LNPopupBar* dn_containingPopupBar;
 
 @end

@@ -15,21 +15,21 @@
 /**
  * The containing popup bar. (read-only)
  */
-@property (nonatomic, weak, readonly) LNPopupBar* containingPopupBar;
+@property (nonatomic, weak, readonly) LNPopupBar* dn_containingPopupBar;
 
 /**
  * Indicates whether the default tap gesture recognizer should be added to the popup bar.
  *
  * Defaults to @c YES.
  */
-@property (nonatomic, assign, readonly) BOOL wantsDefaultTapGestureRecognizer;
+@property (nonatomic, assign, readonly) BOOL dn_wantsDefaultTapGestureRecognizer;
 
 /**
  * Indicates whether the default pan gesture recognizer should be added to the popup bar.
  *
  * Defaults to @c YES.
  */
-@property (nonatomic, assign, readonly) BOOL wantsDefaultPanGestureRecognizer;
+@property (nonatomic, assign, readonly) BOOL dn_wantsDefaultPanGestureRecognizer;
 
 /*
  * The @c preferredContentSize is used for height calculation of the popup bar.
@@ -41,6 +41,6 @@
  *
  * @note You must call the @c super implementation of this method.
  */
-- (void)popupItemDidUpdate NS_REQUIRES_SUPER;
+- (void)dn_popupItemDidUpdate NS_REQUIRES_SUPER;
 
 @end

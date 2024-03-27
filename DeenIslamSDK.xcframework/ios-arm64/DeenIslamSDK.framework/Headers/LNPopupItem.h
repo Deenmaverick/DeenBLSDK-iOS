@@ -20,38 +20,38 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note If no title or subtitle is set, the property will return its view controller's title.
  */
-@property (nullable, nonatomic, copy) NSString* title;
+@property (nullable, nonatomic, copy) NSString* dn_title;
 
 /**
  * The popup item's subtitle.
  */
-@property (nullable, nonatomic, copy) NSString* subtitle;
+@property (nullable, nonatomic, copy) NSString* dn_subtitle;
 
 /**
  * The popup item's image.
  *
  * @note The image will only be displayed on prominent popup bars.
  */
-@property (nullable, nonatomic, strong) UIImage* image;
+@property (nullable, nonatomic, strong) UIImage* dn_image;
 
 /**
  * The popup item's progress.
  *
  * The progress is represented by a floating-point value between 0.0 and 1.0, inclusive, where 1.0 indicates the completion of the task. The default value is 0.0. Values less than 0.0 and greater than 1.0 are pinned to those limits.
  */
-@property (nonatomic) float progress;
+@property (nonatomic) float dn_progress;
 
 /**
  * An array of custom bar button items to display on the left side of the popup bar.
  *
  * @note For prominent popup bars, these buttons are positioned on the right side, before items in @c rightBarButtonItems.
  */
-@property(nullable, nonatomic, copy) NSArray<UIBarButtonItem*>* leftBarButtonItems;
+@property(nullable, nonatomic, copy) NSArray<UIBarButtonItem*>* dn_leftBarButtonItems;
 
 /**
  * An array of custom bar button items to display on the right side of the popup bar.
  */
-@property(nullable, nonatomic, copy) NSArray<UIBarButtonItem*>* rightBarButtonItems;
+@property(nullable, nonatomic, copy) NSArray<UIBarButtonItem*>* dn_rightBarButtonItems;
 
 @end
 
@@ -60,17 +60,17 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * The accessibility label of the image, in a localized string.
  */
-@property (nonatomic, copy, nullable) NSString* accessibilityImageLabel;
+@property (nonatomic, copy, nullable) NSString* dn_accessibilityImageLabel;
 
 /**
  * The accessibility label of the progress, in a localized string.
  */
-@property (nonatomic, copy, nullable) NSString* accessibilityProgressLabel;
+@property (nonatomic, copy, nullable) NSString* dn_accessibilityProgressLabel;
 
 /**
  * The accessibility value of the progress, in a localized string.
  */
-@property (nonatomic, copy, nullable) NSString* accessibilityProgressValue;
+@property (nonatomic, copy, nullable) NSString* dn_accessibilityProgressValue;
 
 @end
 
